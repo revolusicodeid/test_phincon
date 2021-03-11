@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+  display: flex;
+}
+
+.pokemons-list {
+  border-right: 1px solid;
+}
+
+.pokemons-list,
+.pokedex {
+  padding: 0 50px 20px;
+  border-bottom: 1px solid;
+  flex-grow: 1;
+}
+
+.pokemons-list table tr td:first-child,
+.pokedex table tr td:first-child {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.pokemons-list table tr td:first-child:hover,
+.pokedex table tr td:first-child:hover {
+  cursor: pointer;
+  color: #534d4d;
+}
+
+button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footer {
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  position:sticky;
+  height: auto;
+  width: 100%;
+}
+
+.footer .footer-box {
+  padding: 2rem 2rem ;
+  min-width: 307px;
+}
+
+.footer .footer-box .footer-content .tutorial {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .footer-box .footer-content .tutorial .footer-img img {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.footer .footer-box .footer-content .copy-right p {
+  text-align: center;
+}
+
+
